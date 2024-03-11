@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1 class="building-name"><span>Pourcentage d'occupation du bâtiment :</span> Usine</h1>    <div v-for="floor in building.floors" :key="floor.name">
+    <h1 class="building-name"><span>Pourcentage d'occupation du bâtiment :</span> Usine</h1>
+    <div v-for="floor in building.floors" :key="floor.name">
       <Floor :floor-data="floor" />
     </div>
   </div>
@@ -18,7 +19,7 @@ color: #211d6b
 }
 
 .building-name {
-  /* Style for the entire building name, including 'Usine' */
+  /* Style for the building name */
   color: #fd8700;
 }
 </style>

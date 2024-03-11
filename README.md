@@ -1,29 +1,40 @@
-# stage_bat
+# Appli SPINALCOM
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est une application web Vue.js conçue pour afficher l'occupation des pièces dans un bâtiment, avec des fonctionnalités interactives pour afficher des détails supplémentaires.
+## Caractéristiques
 
-## Recommended IDE Setup
+- Affichage du nom du bâtiment et de ses étages.
+- Pourcentage d'occupation pour chaque étage.
+- Statut d'occupation des pièces (occupé, non occupé, inconnu).
+- Affichage dynamique des détails des étages.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Technologies Utilisées
 
-## Customize configuration
+- Vue.js
+- CSS pour les styles
+- Transitions et animations de Vue.js
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Installation
 
-## Project Setup
+Pour installer et exécuter ce projet localement, suivez les étapes suivantes :
+### Clonez le dépôt sur votre machine locale 
+### Installez les dépendances
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Lancer le serveur de développement
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compiler pour la production
 
 ```sh
 npm run build
 ```
+
+## Auteur
+Aya KINANI
